@@ -1,12 +1,47 @@
-# React + Vite
+# Library Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A React + Vite frontend for managing library operations:
 
-Currently, two official plugins are available:
+✨ Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+✅ User authentication (login/logout)
+✅ Admin dashboard with statistics and charts
+✅ Book management (create, read, update, delete)
+✅ Member management (create, read, update, delete)
+✅ Book issue/return functionality
+✅ Reports section for fines, overdue books, and issue history
+✅ Responsive design using Material UI
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🚀 How to Run
+
+### Requirements
+
+- Node.js 18+
+- npm (comes with Node.js) 
+
+### 🛠 Technologies Used
+- React
+- Vite
+- Material UI
+- Axios for HTTP requests
+- React Router for routing
+
+### Install dependencies
+
+```bash
+npm install
+
+
+### Start dev server
+
+bash
+npm run dev
+
+Frontend runs at:
+http://localhost:5173
+
+⚠️ Important
+
+Ensure your backend server (LibraryManagement_backend) is running before starting the frontend. Otherwise, API requests will fail.
