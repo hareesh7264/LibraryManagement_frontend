@@ -5,14 +5,18 @@ A React + Vite frontend for managing library operations:
 ✨ Features
 
 ✅ User authentication (login/logout)
-✅ Admin dashboard with statistics and charts
-✅ Book management (create, read, update, delete)
-✅ Member management (create, read, update, delete)
-✅ Book issue/return functionality
-✅ Reports section for fines, overdue books, and issue history
-✅ Responsive design using Material UI
 
----
+✅ Admin dashboard with statistics and charts
+
+✅ Book management (create, read, update, delete)
+
+✅ Member management (create, read, update, delete)
+
+✅ Book issue/return functionality
+
+✅ Reports section for fines, overdue books, and issue history
+
+✅ Responsive design using Material UI
 
 ## 🚀 How to Run
 
